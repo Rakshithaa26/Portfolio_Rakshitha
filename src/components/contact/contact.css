@@ -1,0 +1,53 @@
+/* Advanced CSS for the Contact Form */
+#contact {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#contact h2 {
+  color: white;
+}
+
+#contact form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contact label {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contact button {
+  margin: 3rem 0;
+  padding: 0.5rem 2.5rem;
+  border: white solid 2px;
+  border-radius: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 600px) {
+  #contact form {
+    width: 100%;
+  }
+}
